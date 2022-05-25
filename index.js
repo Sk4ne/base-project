@@ -1,5 +1,7 @@
-require('dotenv').config()
-require('./db/config')
+// require('dotenv').config()
+import dotevn from 'dotenv'
+dotenv.config();
+import './db/config'
 import express from 'express'
 import morgan from 'morgan'
 import mongoose from 'mongoose'
